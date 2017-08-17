@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomImageView">
+        <attr name="borderRadius" format="dimension"/>
+        <attr name="type">
+            <enum name="circle" value="0"></enum>
+            <enum name="round" value="1"></enum>
+        </attr>
+        <attr name="src" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="Theme">
+        <attr name="customImageViewStyle" format="reference"/>
+    </declare-styleable>
+
+    <!-- 自定义圆角ImageView -->
+    <declare-styleable name="CustomImgView">
+        <attr name="circle" format="boolean"/>
+        <attr name="radius" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="circle_radius" format="dimension"></attr>
+        <attr name="circle_src" format="reference"></attr>
+        <attr name="circle_type" format="enum">
+            <enum name="circle" value="0"></enum>
+            <enum name="round" value="1"></enum>
+            <enum name="round_top" value="2"></enum>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CheckableRelativeLayout">
+        <attr name="checked" format="boolean"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="CustomCircleView">
+        <attr name="width" format="dimension"></attr>
+        <attr name="bg_color" format="color"></attr>
+        <attr name="fg_color" format="color"></attr>
+    </declare-styleable>
+</resources>

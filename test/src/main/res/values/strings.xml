@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">JamesTest</string>
+    <string name="app_name_debug">JamesDebug</string>
+    <string name="button_1">button1</string>
+    <string name="title_activity_net_work_test">NetWorkTestActivity</string>
+    <string name="title_activity_looper_text">LooperTextActivity</string>
+    <string name="title_activity_signature_save">SignatureSaveActivity</string>
+    <string name="title_activity_dialog_test">DialogTestActivity</string>
+    <string name="title_activity_bitmap_split">BitmapSplitActivity</string>
+    <string name="title_activity_db_test">DbTestActivity</string>
+    <string name="title_activity_object_animator">ObjectAnimatorActivity</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header
+        android:fragment="com.example.test.activity.NetworkSettingActivity$FragmentOne"
+        android:summary="这是测试1"
+        android:title="Test1" />
+
+    <header
+        android:fragment="com.example.test.activity.NetworkSettingActivity$FragmentTwo"
+        android:summary="这是测试2"
+        android:title="Test1" />
+
+    <header
+        android:summary="打开百度"
+        android:title="使用intent">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://www.baidu.org"></intent>
+    </header>
+</preference-headers>

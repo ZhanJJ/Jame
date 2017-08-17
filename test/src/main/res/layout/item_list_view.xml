@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgTag"
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                android:background="@color/colorAccent"
+                android:gravity="start"
+                android:layout_centerVertical="true"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/tvContent"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="图书"
+                android:gravity="start|center"
+                android:layout_centerInParent="true"
+                />
+
+</RelativeLayout>

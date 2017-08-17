@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_signature"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="10dp">
+
+            <com.example.test.bitmap.SignatureView
+                android:id="@+id/signatureView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@android:color/white" />
+
+            <ImageView
+                android:id="@+id/imgSign"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#cdcdcd" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7.5dp"
+            android:background="@android:color/white"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:orientation="horizontal"
+        android:padding="2.5dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2.5dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2.5dp"
+                android:layout_weight="1"
+                android:text="全部"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnFix"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2.5dp"
+                android:layout_weight="1"
+                android:text="修正"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnConfirm"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2.5dp"
+            android:layout_weight="1"
+            android:text="剪切"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</LinearLayout>

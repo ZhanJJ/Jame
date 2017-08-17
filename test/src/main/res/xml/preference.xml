@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="设置组1">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:summaryOff="拒绝"
+            android:summaryOn="接受"
+            android:key="isUseMobile"
+            android:title="使用移动网络" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:summaryOff="一般般"
+            android:summaryOn="挺好的"
+            android:key="isOk"
+            android:title="倪大爷好不好" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="设置组2">
+        <EditTextPreference
+            android:key="name"
+            android:singleLine="true"
+            android:summary="设置你的姓名"
+            android:title="姓名" />
+
+        <ListPreference
+            android:dialogTitle="选择性别"
+            android:entries="@array/sex_name"
+            android:entryValues="@array/sex_value"
+            android:key="sex"
+            android:summary="选择你的性别"
+            android:title="性别" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
