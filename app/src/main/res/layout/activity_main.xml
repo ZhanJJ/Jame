@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/refreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.james.jame.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/bg_shape"
+            android:elevation="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The First Name:" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="the first" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/viewTest"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/bg_shape"
+            android:elevation="10dp"
+            ></View>
+
+        <CheckBox
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" />
+
+        <Button
+            android:id="@+id/btnTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/bg_shape"
+            android:elevation="10dp" />
+
+        <!--Tint-->
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/ic_launcher"
+                android:tint="@color/colorPrimary"
+                />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/ic_launcher"
+                android:tint="@color/colorPrimary"
+                android:tintMode="add"
+                />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/ic_launcher"
+                android:tint="@color/colorPrimary"
+                android:tintMode="multiply"
+                />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/ic_launcher"
+                android:tint="@color/colorPrimary"
+                android:tintMode="screen"
+                />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/tvRect"
+                android:layout_width="100dp"
+                android:layout_margin="10dp"
+                android:layout_height="100dp"
+                android:elevation="2dp"
+                />
+
+            <TextView
+                android:id="@+id/tvCircle"
+                android:layout_margin="10dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:elevation="2dp"
+                />
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:elevation="2dp"
+                android:background="@mipmap/ic_launcher"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.SwipeRefreshLayout>
